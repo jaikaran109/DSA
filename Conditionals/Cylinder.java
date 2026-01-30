@@ -6,5 +6,8 @@ class Main Cylinder{
         double r = sc.nextDouble();
         double h = sc.nextDouble();
         System.out.println("Volume of Cylinder = " + Math.PI * r * r * h);
+        System.out.println("Curved Surface Area = " + 2 * Math.PI * r * h);
+
+        
     }
 }
