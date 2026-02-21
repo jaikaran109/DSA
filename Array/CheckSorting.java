@@ -1,5 +1,5 @@
 package Array;
-
+ 
 
 //Take an array of numbers as input and check if it is an array sorted in ascending order.
 //Eg : { 1, 2, 4, 7 } is sorted in ascending order.
