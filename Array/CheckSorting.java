@@ -5,7 +5,7 @@ package Array;
 //Eg : { 1, 2, 4, 7 } is sorted in ascending order.
 //      {3, 4, 6, 2} is not sorted in ascending order.
 
-
+ 
 import java.util.*;
 public class CheckSorting {
 
