@@ -1,44 +1,44 @@
-package String;
+package Exam_4thSem;
 
 
-//check Anagram
+//Given two strings s and t, return true if t is an anagram of s, and
+//false otherwise.
+//        Example 1:
+//Input: s = "anagram", t = "nagaram"
+//Output: true
+//Example 2:
+//Input: s = "rat", t = "car"
+//Output: false
+//Constraints:
+//        1 <= s.length, t.length <= 5 * 104
+//        s and t consist of lowercase English letters.
 
 
 import java.util.*;
-public class Anagram {
-
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		String str1 = input.next();
-		String str2 = input.next();
-		
-		str1 = str1.toLowerCase();
-		str2 = str2.toLowerCase();
-		
-		int[] arr1 = new int[26];
-		int[] arr2 = new int[26];
-		
-		if(str1.length() != str2.length()) {
-			System.out.print("Not Anagram");
-			return;
-		}
-		
-		for(int i = 0 ; i < str1.length(); i++) {
-			++arr1[str1.charAt(i) - 'a'];
-			++arr2[str2.charAt(i) - 'a'];
-		}
-		
-		
-		for(int i = 0 ; i < 26 ; i++) {
-			if(arr1[i] != arr2[i]) {
-				System.out.print("Not Anagram");
-				return;
-			}
-		}
-		
-		
-		System.out.print("Anagram");
-
-	}
-
+public class anagram {
+    static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String s = input.next();
+        String t = input.next();
+        if(s.length() != t.length()){
+            System.out.println("Naaaaaaaahhhhhhhh");
+            return;
+        }
+        int[] arr = new int[26];
+        for(int i = 0 ; i < s.length() ; i++){
+            arr[s.charAt(i) - 'a']++;
+            arr[t.charAt(i) - 'a']--;
+        }
+        for(int num : arr){
+            if(num != 0){
+                System.out.println("Naaaaaaaahhhhhhhh");
+                return;
+            }
+        }
+        System.out.println("Yeaaaaaaaahhhhhhhhhhhh");
+    }
 }
+
+
+// Time Complexity : O(n)
+
