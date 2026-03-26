@@ -1,6 +1,7 @@
 package Exam_4thSem;
 
 
+
 //Given an array arr[], check whether it is sorted in non-decreasing
 //order. Return true if it is sorted otherwise false.
 //Examples :- 1
@@ -18,6 +19,7 @@ package Exam_4thSem;
 //        1 ≤ arr.size ≤ 106
 //
 //        - 109 ≤ arr[i] ≤ 109
+
 
 
 import java.util.*;
