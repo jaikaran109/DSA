@@ -6,7 +6,7 @@ package ArrayList;
 //an array of all the integers that appears twice.
 //
 //You must write an algorithm that runs in 0(n) time and uses only
-//constant auxiliary space, excluding the space needed to store the output
+//constant auxiliary space, excluding the space needed to store the output  
 //
 //Example 1:
 //
