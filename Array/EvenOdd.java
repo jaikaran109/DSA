@@ -1,6 +1,5 @@
 package Array;
 
-
 //Count even and odd numbers in an array  
 
 
