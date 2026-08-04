@@ -1,5 +1,3 @@
-package Recursion.Raghav;
-
 import java.util.*;
 public class printRange {
     public static void main(String[] args) {
