@@ -11,7 +11,9 @@ public class RecursionOnArrays {
     }
     static void printArray(int[] arr , int idx){
         if(idx == arr.length) return;
-        System.out.println(arr[idx]);
+        System.out.print(arr[idx] + " ");
         printArray(arr,idx+1);
+        System.out.println();
+        System.out.print(arr[idx] + " "); // reverse order
     }
 }
