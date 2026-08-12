@@ -11,7 +11,7 @@ public class RecursionOnArrays {
         printArray(arr,0);
 
 
-        System.out.println("Check present Or Not" + check(arr,7,0));
+        System.out.println("Check present Or Not :--- " + check(arr,7,0));
 
 
     }
