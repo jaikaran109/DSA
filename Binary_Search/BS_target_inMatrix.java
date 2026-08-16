@@ -1,6 +1,3 @@
-package Binary_Search;
-
-
 // find target in 2D Matrix by Binary Search
 // for this array must be sorted in row and col
 
